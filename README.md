@@ -10,13 +10,12 @@ liuyi1231:
 
 cd vendor/github.com/hyperledger
 
-git clone https://github.com/ldstyle8/fabric-sdk-go.git
+git clone https://github.com/ldstyle8/fabric-sdk-go.git(或者git clone https://github.com/hyperledger/fabric-sdk-go.git)
 
 cd fabric-sdk-go
 
 git checkout master
 
-(或者git clone https://github.com/hyperledger/fabric-sdk-go.git)
 
 
 2.运行案例：
