@@ -5,26 +5,39 @@ liuyi1231:
 一、 需要fabric-sdk-go支持
 
 ################ 运行指令 ################
+
 1.拉取fabric-sdk-go包：
 
 cd vendor/github.com/hyperledger
+
 git clone https://github.com/ldstyle8/fabric-sdk-go.git
+
 cd fabric-sdk-go
+
 git checkout master
+
 (或者git clone https://github.com/hyperledger/fabric-sdk-go.git)
 
 
 2.运行案例：
 
 cd ../../../..
+
 make
+
 #########################################
 
 
 二、 fabric1.4.3镜像支持，即
+
 hyperledger/fabric-orderer:1.4.3
+
 hyperledger/fabric-peer:1.4.3
+
 若运行时本机没有hyperledger/fabric-orderer:1.4.3等镜像，运行时会自动拉取
+
+
+
 
 [TOC]
 
